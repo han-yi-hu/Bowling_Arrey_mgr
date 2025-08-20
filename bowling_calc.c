@@ -802,7 +802,7 @@ int user_fix(void)
 		{
 			while(1)
 			{
-				printf("\n1.改为活跃\n2.注销");
+				printf("\n1.改为活跃\n0.注销");
 				if((scanf("%d", &user.user_cancel)) != 1)
 				{
 					printf("\n无效输入\n");
